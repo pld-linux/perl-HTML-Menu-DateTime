@@ -32,11 +32,11 @@ Allows any number of dropdown menus to be displayed on a single page,
 each independantly configurable.
    
 %description -l pl
-Tworzy struktury danych przydatne do wype³aniania szablonów
+Tworzy struktury danych przydatne do wype³niania szablonów
 HTML::Template lub Template::Toolkit rozwijalnymi menu daty i godziny.
 
 Pozwala na wy¶wietlenie na stronie dowolnej liczby menu, ka¿de
-oddzielnie konfigurowywalne.
+oddzielnie konfigurowalne.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
