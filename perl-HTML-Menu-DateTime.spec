@@ -9,7 +9,7 @@ Summary:	HTML::Menu::DateTime - easily create HTML select menus
 Summary(pl):	HTML::Menu::DateTime - ³atwie tworzenie menu wyboru HTML
 Name:		perl-HTML-Menu-DateTime
 Version:	0.93
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
@@ -18,7 +18,7 @@ Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
-BuildRequires:	perl-Carp
+BuildRequires:	perl(Carp)
 BuildRequires:	perl(Test::More)
 %endif
 BuildArch:	noarch
