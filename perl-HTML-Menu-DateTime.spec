@@ -6,7 +6,7 @@
 %define	pdir	HTML
 %define	pnam	Menu-DateTime
 Summary:	HTML::Menu::DateTime - easily create HTML select menus
-Summary(pl):	HTML::Menu::DateTime - ≥atwie tworzenie menu wyboru HTML
+Summary(pl.UTF-8):   HTML::Menu::DateTime - ≈Çatwie tworzenie menu wyboru HTML
 Name:		perl-HTML-Menu-DateTime
 Version:	0.94
 Release:	1
@@ -31,11 +31,11 @@ Template::Toolkit templates with dropdown date and time menus.
 Allows any number of dropdown menus to be displayed on a single page,
 each independantly configurable.
    
-%description -l pl
-Tworzy struktury danych przydatne do wype≥niania szablonÛw
+%description -l pl.UTF-8
+Tworzy struktury danych przydatne do wype≈Çniania szablon√≥w
 HTML::Template lub Template::Toolkit rozwijalnymi menu daty i godziny.
 
-Pozwala na wy∂wietlenie na stronie dowolnej liczby menu, kaøde
+Pozwala na wy≈õwietlenie na stronie dowolnej liczby menu, ka≈ºde
 oddzielnie konfigurowalne.
 
 %prep
