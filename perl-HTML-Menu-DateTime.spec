@@ -6,7 +6,7 @@
 %define	pdir	HTML
 %define	pnam	Menu-DateTime
 Summary:	HTML::Menu::DateTime - easily create HTML select menus
-Summary(pl.UTF-8):   HTML::Menu::DateTime - łatwie tworzenie menu wyboru HTML
+Summary(pl.UTF-8):	HTML::Menu::DateTime - łatwie tworzenie menu wyboru HTML
 Name:		perl-HTML-Menu-DateTime
 Version:	0.94
 Release:	1
