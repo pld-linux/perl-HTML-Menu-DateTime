@@ -9,7 +9,7 @@ Summary:	HTML::Menu::DateTime - easily create HTML select menus
 Summary(pl.UTF-8):	HTML::Menu::DateTime - łatwie tworzenie menu wyboru HTML
 Name:		perl-HTML-Menu-DateTime
 Version:	0.94
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
@@ -30,7 +30,7 @@ Template::Toolkit templates with dropdown date and time menus.
 
 Allows any number of dropdown menus to be displayed on a single page,
 each independantly configurable.
-   
+
 %description -l pl.UTF-8
 Tworzy struktury danych przydatne do wypełniania szablonów
 HTML::Template lub Template::Toolkit rozwijalnymi menu daty i godziny.
@@ -63,6 +63,7 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Changes README
+%dir %{perl_vendorlib}/HTML/Menu
 %{perl_vendorlib}/HTML/Menu/DateTime.pm
 %{_mandir}/man3/*
 %{_examplesdir}/%{name}-%{version}
