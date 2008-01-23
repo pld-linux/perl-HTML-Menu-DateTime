@@ -13,16 +13,17 @@ Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/HTML/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	3324f180bc41fcbdf4d649c1c31e683f
+URL:		http://search.cpan.org/dist/HTML-Menu-DateTime/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
 BuildRequires:	perl(Carp)
-BuildRequires:	perl(DateTime::Locale)
-BuildRequires:	perl(HTML::Menu::Select)
-BuildRequires:	perl(Test::More)
-BuildRequires:	perl(Test::Pod::Coverage)
+BuildRequires:	perl-DateTime-Locale
+BuildRequires:	perl-HTML-Menu-Select
+BuildRequires:	perl-Test-Pod-Coverage
+BuildRequires:	perl-Test-Simple
 %endif
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
